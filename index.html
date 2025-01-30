@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+</div>
+
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Technology</div>
+      <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li> 
+        <li><a href="#test">Testimonials</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="buttons">
+        <a href="#" class="signin">Sign In</a>
+        <a href="#" class="signup">Sign Up</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero">
+      <h2>Web App Development</h2>
+      <p>
+        Join us in the exciting world of programming and turn your ideas into
+        reality. Unlock the world of endless possibilities - learn to code and
+        shape the digital future with us.
+      </p>
+      <div class="buttons">
+        <a href="#" class="join">Join Now</a>
+        <a href="#" class="learn">Learn More</a>
+      </div>
+    </div>
+    <div class="img">
+      <img src="img.png" alt="hero image" />
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <h2>Our Services</h2>
+    <p>
+      We offer a variety of services to meet your needs, from website development to mobile app solutions, we have you covered.
+    </p>
+    <div class="service-details">
+      <!-- Service Boxes with AOS -->
+      <div class="service-box" data-aos="fade-up" data-aos-delay="100">
+        <h3>Web Development</h3>
+        <p>We build fast, scalable, and secure websites using the latest technologies.</p>
+      </div>
+      <div class="service-box" data-aos="fade-up" data-aos-delay="200">
+        <h3>App Development</h3>
+        <p>Our team crafts intuitive mobile apps with great user experience.</p>
+      </div>
+      <div class="service-box" data-aos="fade-up" data-aos-delay="300">
+        <h3>UI/UX Design</h3>
+        <p>We design modern, clean, and user-centric interfaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <h2>About Us</h2>
+    <p>
+      We are a team of passionate developers dedicated to bringing the best web and app solutions. Our aim is to help you build digital products that make a difference. We specialize in web development, mobile apps, and designing solutions that connect businesses with their users.
+    </p>
+    <div class="about-details">
+      <div class="about-box" data-aos="fade-up" data-aos-delay="100">
+        <h3>Our Vision</h3>
+        <p>
+          Our vision is to become leaders in creating innovative digital solutions, providing businesses with the tools they need to succeed in an ever-evolving market.
+        </p>
+      </div>
+      <div class="about-box" data-aos="fade-up" data-aos-delay="200">
+        <h3>Our Mission</h3>
+        <p>Our mission is to help businesses bring their ideas to life through tailored solutions.</p>
+      </div>
+      <div class="about-box" data-aos="fade-up" data-aos-delay="300">
+        <h3>Our Values</h3>
+        <ul>
+          <li>Innovation</li>
+          <li>Commitment</li>
+          <li>Collaboration</li>
+          <li>Customer-Centric Approach</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="test">
+		<div class="container">
+			<div class="title">
+				<h1>Testimonials</h1>
+			</div>
+
+			<div class="slider-indicator">
+				<img src="testimonial-01.png" class="active" alt="img" data-id="0">
+				<img src="testimonial-02.png" alt="img" data-id="1">
+				<img src="testimonial-03.png" alt="img" data-id="2">
+			</div>
+
+			<div class="slider">
+				<div class="slide active">
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti soluta asperiores magni 
+						voluptatem iste consequuntur reiciendis quas velit veritatis animi, ducimus iusto ad sint 
+						similique sapiente, suscipit ab, rerum voluptatum. Quaerat ad eveniet architecto, quidem 
+						tempora error magnam! At nisi qui ratione, tempora vel corporis sint exercitationem maxime 
+						minima velit!	
+					</p>
+					<div class="client-info">
+						<h3>Elisa</h3>
+						<span>Founder at Zach</span>
+					</div>
+				</div>
+				<div class="slide">
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti soluta asperiores magni 
+						voluptatem iste consequuntur reiciendis quas velit veritatis animi, ducimus iusto ad sint 
+						similique sapiente, suscipit ab, rerum voluptatum. Quaerat ad eveniet architecto, quidem 
+						tempora error magnam! At nisi qui ratione, tempora vel corporis sint exercitationem maxime 
+						minima velit!	
+					</p>
+					<div class="client-info">
+						<h3>Natasha</h3>
+						<span>Founder at Welling</span>
+					</div>
+				</div>
+				<div class="slide">
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti soluta asperiores magni 
+						voluptatem iste consequuntur reiciendis quas velit veritatis animi, ducimus iusto ad sint 
+						similique sapiente, suscipit ab, rerum voluptatum. Quaerat ad eveniet architecto, quidem 
+						tempora error magnam! At nisi qui ratione, tempora vel corporis sint exercitationem maxime 
+						minima velit!	
+					</p>
+					<div class="client-info">
+						<h3>Jack</h3>
+						<span>Founder at Zim</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Technology. All rights reserved.</p>
+  </footer>
+
+  <script>
+    AOS.init();  // Initialize AOS library
+
+    // Show alert when the form is submitted
+    const contactForm = document.getElementById('contactForm');
+
+    // Submit form event
+    contactForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from actually submitting and refreshing the page
+
+      // Display alert message after form submission
+      setTimeout(function() {
+        alert('Your message has been sent successfully!');
+      }, 500); // Delay to simulate sending the message
+    });
+
+
+    const slides = document.querySelector(".slider").children;
+const indicatorImages = document.querySelector(".slider-indicator").children;
+
+for(let i=0; i<indicatorImages.length; i++){
+  indicatorImages[i].addEventListener("click", function(){
+
+    for(let j=0; j<indicatorImages.length; j++){
+      indicatorImages[j].classList.remove("active");
+    }
+    this.classList.add("active");
+    const id=this.getAttribute("data-id");
+    for(let j=0; j<slides.length; j++){
+      slides[j].classList.remove("active");
+    }
+
+    slides[id].classList.add("active");
+  })
+}
+  </script>
+</body>
+
+</html>
